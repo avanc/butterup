@@ -1,0 +1,26 @@
+{
+  "name": "butterup",
+  "version": "0.0.1",
+  "description": "Backup tool using rsync and the btrfs snapshot feature.",
+  "main": "main.js",
+  "dependencies": {
+    "rsyncwrapper": "~0.1.1",
+    "minimist": "0.0.7"
+  },
+  "devDependencies": {
+    "should": "~3.1.2"
+  },
+  "scripts": {
+    "test": "tester"
+  },
+  "repository": {
+    "type": "git",
+    "url": "gitrepo"
+  },
+  "keywords": [
+    "backup",
+    "btrfs"
+  ],
+  "author": "Sven Klomp",
+  "license": "MIT"
+}
